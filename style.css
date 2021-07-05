@@ -1,0 +1,61 @@
+/* common styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+img {
+    width: 100%;
+}
+h1, h2, h3 {
+    font-weight: bold;
+}
+h1 {
+    font-size: 60px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+}
+p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: -0.02em;
+    margin: 40px 0;
+    color: #828282;
+}
+.button {
+    padding: 23px 45px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    background: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    border-radius: 100px;
+}
+.flex-container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* foodhut header */
+.foodhut-header {
+    margin-top: 20px;
+}
+.foodhut-header .flex-container {
+    justify-content: space-between;
+}
+.foodhut-header .flex-container > div {
+    flex: 0 1 45%;
+}
+.foodhut-header .header-description {
+    margin-top: 100px;
+}
+.foodhut-header .title span {
+    color: #fba24f;
+}

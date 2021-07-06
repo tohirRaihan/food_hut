@@ -28,6 +28,9 @@ p {
     line-height: 160%;
     margin: 40px 0;
 }
+.text-center {
+    text-align: center;
+}
 .button {
     padding: 23px 45px;
     display: inline-block;

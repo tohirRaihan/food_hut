@@ -1,4 +1,4 @@
-/* common styles */
+/* =====common styles===== */
 * {
     margin: 0;
     padding: 0;
@@ -17,13 +17,16 @@ h1 {
     line-height: 130%;
     letter-spacing: -0.02em;
 }
+h2 {
+    font-size: 40px;
+    line-height: 130%;
+    color: #707070;
+}
 p {
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 18px;
     line-height: 160%;
-    letter-spacing: -0.02em;
     margin: 40px 0;
-    color: #828282;
 }
 .button {
     padding: 23px 45px;
@@ -38,17 +41,18 @@ p {
 }
 .flex-container {
     display: flex;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
 
-/* foodhut header */
+/* =====foodhut header===== */
 .foodhut-header {
     margin-top: 20px;
 }
 .foodhut-header .flex-container {
     justify-content: space-between;
+    align-items: center;
 }
 .foodhut-header .flex-container > div {
     flex: 0 1 45%;
@@ -58,4 +62,25 @@ p {
 }
 .foodhut-header .title span {
     color: #fba24f;
+}
+.foodhut-header .flex-container > div p {
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+    color: #828282;
+}
+
+/* =====About me section===== */
+#about-me {
+    padding-top: 50px;
+    background: url("images/bg_about_me.png") no-repeat right bottom;
+    background-size: cover;
+
+}
+#about-me .flex-container {
+    align-items: center;
+    justify-content: space-around;
+}
+#about-me .flex-container > div {
+    flex: 0 1 30%;
 }

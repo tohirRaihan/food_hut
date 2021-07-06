@@ -128,7 +128,7 @@ p {
     margin: 0;
 }
 
-/* User review section */
+/* =====User review section===== */
 #user-review {
     padding: 100px 0;
 }
@@ -151,7 +151,7 @@ p {
     font-size: 20px;
 }
 
-/* Newsletter section */
+/* =====Newsletter section===== */
 #newsletter {
     padding: 100px 0;
     background: url("images/bg_newsletter.jpg") no-repeat top right;
@@ -168,7 +168,7 @@ p {
     border-radius: 0 100px 100px 0;
 }
 
-/* Foodhut footer section */
+/* =====Foodhut footer section===== */
 #foodhut-footer {
     padding: 50px 0 100px;
     background: #0B0D17;
